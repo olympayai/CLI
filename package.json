@@ -1,0 +1,21 @@
+{
+  "name": "olympay",
+  "version": "0.1.1",
+  "description": "Olympay CLI - Financial control for autonomous AI agents",
+  "bin": {
+    "olympay": "dist/cli.js"
+  },
+  "type": "module",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "esbuild": "^0.19.0",
+    "typescript": "^5.0.0"
+  }
+}
